@@ -3,6 +3,7 @@
     "res": {
         "id": "1",
         "title": "Chapitre1",
+        "palce": "1",
         "description": "Description chapitre1.",
         "content": "Contenu chapitre 1.",
         "rating": "4"
