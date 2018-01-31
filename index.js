@@ -9,6 +9,7 @@ const formation0 = require('./json_files/formation0');
 const formation1 = require('./json_files/formation1');
 const formation2 = require('./json_files/formation2');
 const chapter0 =  require('./json_files/chapter0');
+const chapter1 =  require('./json_files/chapter1');
 
 app.set('port', (process.env.PORT || 3000));
 
