@@ -8,6 +8,7 @@ const formations = require('./formations');
 const formation0 = require('./formation0');
 const formation1 = require('./formation1');
 const formation2 = require('./formation2');
+const chapter0 =  require('./chapter0');
 
 app.set('port', (process.env.PORT || 3000));
 
@@ -25,6 +26,10 @@ app.get('/api/formation/1', function (req, res) {
 
 app.get('/api/formation/2', function (req, res) {
   res.send(formation2);
+});
+
+app.get('/api/chapter/0', function (req, res) {
+  res.send(chapter0);
 });
 
 
