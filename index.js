@@ -10,7 +10,6 @@ const formation1 = require('./json_files/formation1');
 const formation2 = require('./json_files/formation2');
 const chapter0 =  require('./json_files/chapter0');
 const chapter1 =  require('./json_files/chapter1');
-const details0 =  require('./json_files/formationDetails0');
 
 app.set('port', (process.env.PORT || 3000));
 
@@ -28,10 +27,6 @@ app.get('/api/formation/1', function (req, res) {
 
 app.get('/api/formation/2', function (req, res) {
   res.send(formation2);
-});
-
-app.get('/api/formation/0/details', function (req, res) {
-  res.send(details0);
 });
 
 app.get('/api/chapter/0', function (req, res) {

@@ -4,6 +4,7 @@
         "id": "1",
         "name": "Test1",
         "description": "Description test1.",
-        "icon": "test1.png"
+        "icon": "test1.png",
+        "idChapters" : ["0","1"]
     }
 }
