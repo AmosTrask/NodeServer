@@ -4,11 +4,11 @@ var cors = require('cors');
 
 app.use(cors());
 
-const formations = require('./formations');
-const formation0 = require('./formation0');
-const formation1 = require('./formation1');
-const formation2 = require('./formation2');
-const chapter0 =  require('./chapter0');
+const formations = require('./json_files/formations');
+const formation0 = require('./json_files/formation0');
+const formation1 = require('./json_files/formation1');
+const formation2 = require('./json_files/formation2');
+const chapter0 =  require('./json_files/chapter0');
 
 app.set('port', (process.env.PORT || 3000));
 
