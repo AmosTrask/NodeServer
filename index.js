@@ -33,6 +33,10 @@ app.get('/api/chapter/0', function (req, res) {
   res.send(chapter0);
 });
 
+app.get('/api/chapter/1', function (req, res) {
+  res.send(chapter1);
+});
+
 
 app.listen(app.get('port'), function () {
   console.log('Example app listening on port 3000!')
