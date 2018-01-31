@@ -1,0 +1,9 @@
+{
+    "success": true,
+    "res": {
+        "id": "1",
+        "name": "Test1",
+        "description": "Description test1.",
+        "icon": "test1.png"
+    }
+}
