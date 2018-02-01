@@ -1,0 +1,24 @@
+{
+    "success": true,
+    "res": [{
+            "id": 0,
+            "title": "Chapitre0",
+            "description": "Description chapitre0",
+            "content": "Content chapitre0",
+            "rating": "3"
+        },
+        {
+            "id": 1,
+            "title": "Chapitre1",
+            "description": "Description chapitre1",
+            "content": "Content chapitre1",
+            "rating": "3"
+        }, {
+            "id": 2,
+            "title": "Chapitre2",
+            "description": "Description chapitre2",
+            "content": "Content chapitre2",
+            "rating": "3"
+        }
+    ]
+}
