@@ -5,6 +5,6 @@
         "name": "Test0",
         "description": "Description test0.",
         "icon": "test0.png",
-        "idChapters" : ["0","1"]
+        "idChapters" : ["0","1", "2"]
     }
 }
