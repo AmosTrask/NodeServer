@@ -48,6 +48,10 @@ app.get('/api/chapter/2', function (req, res) {
   res.send(chapter2);
 });
 
+app.post('/api/formatio/add', function (req, res){
+  res.send(formation1);
+});
+
 
 app.listen(app.get('port'), function () {
   console.log('Example app listening on port 3000!')
