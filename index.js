@@ -48,7 +48,7 @@ app.get('/api/chapter/2', function (req, res) {
   res.send(chapter2);
 });
 
-app.post('/api/formatio/add', function (req, res){
+app.post('/api/formation/add', function (req, res){
   res.send(formation1);
 });
 
