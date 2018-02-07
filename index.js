@@ -52,6 +52,10 @@ app.post('/api/formation/add', function (req, res){
   res.send(formation1);
 });
 
+app.post('/api/chapter/add/1', function (req, res){
+  res.send(chapter2);
+});
+
 
 app.listen(app.get('port'), function () {
   console.log('Example app listening on port 3000!')
