@@ -52,7 +52,7 @@ app.post('/api/formation/add', function (req, res){
   res.send(formation1);
 });
 
-app.post('/api/formation/1/edit', function (req, res){
+app.put('/api/formation/1/edit', function (req, res){
   res.send(formation1);
 });
 
