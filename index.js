@@ -60,6 +60,9 @@ app.post('/api/formation/1/addChapter', function (req, res){
   res.send(chapter2);
 });
 
+app.delete('/api/chapter/2', function (req, res){
+  res.send('');
+});
 
 app.listen(app.get('port'), function () {
   console.log('Example app listening on port 3000!')
