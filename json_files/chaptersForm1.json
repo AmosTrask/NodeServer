@@ -1,0 +1,47 @@
+{
+    "success": true,
+    "res": {
+        "id": 2,
+        "name": "Formation 1",
+        "description": "Une belle formation",
+        "draft": false,
+        "icon": {
+            "path": "default",
+            "format": "png"
+        },
+        "pole": {
+            "id": 1,
+            "name": "DSI"
+        },
+        "author": {
+            "id": 1,
+            "fistname": "Sacha",
+            "lastname": "Barkat",
+            "icon": {
+                "path": "default",
+                "format": "png"
+            }
+        },
+        "chapters": [{
+            "id": 1,
+            "position": 0,
+            "name": "Chapitre 1",
+            "description": "Le chapitre 1",
+            "draft": false,
+            "icon": {
+                "path": "default",
+                "format": "png"
+            }
+        }, {
+            "id": 3,
+            "position": 1,
+            "name": "Chapitre 2",
+            "description": "Le chapitre 2",
+            "draft": true,
+            "icon": {
+                "path": "default",
+                "format": "png"
+            }
+        }]
+    }
+}

@@ -1,11 +1,14 @@
 {
     "success": true,
     "res": {
-        "id": "2",
-        "title": "Chapitre2",
-        "palce": "2",
-        "description": "Description chapitre2.",
-        "content": "Contenu chapitre 2.",
-        "rating": "4"
+        "id": 2,
+        "position": 2,
+        "name": "Chapitre 2",
+        "description": "Le chapitre 2",
+        "draft": false,
+        "icon": {
+            "path": "default",
+            "format": "png"
+        }
     }
 }

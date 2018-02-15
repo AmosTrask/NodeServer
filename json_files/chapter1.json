@@ -1,11 +1,14 @@
 {
     "success": true,
     "res": {
-        "id": "1",
-        "title": "Chapitre1",
-        "palce": "1",
-        "description": "Description chapitre1.",
-        "content": "Contenu chapitre 1.",
-        "rating": "4"
+        "id": 1,
+        "position": 1,
+        "name": "Chapitre 1",
+        "description": "Le chapitre 1",
+        "draft": false,
+        "icon": {
+            "path": "default",
+            "format": "png"
+        }
     }
 }
