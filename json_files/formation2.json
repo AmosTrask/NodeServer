@@ -1,9 +1,44 @@
 {
     "success": true,
     "res": {
-        "id": "2",
-        "name": "Test2",
-        "description": "Description test2.",
-        "icon": "test2.png"
+        "id": 2,
+        "name": "Formation 1",
+        "description": "Une belle formation",
+        "icon": {
+            "path": "default",
+            "format": "png"
+        },
+        "pole": {
+            "id": 1,
+            "name": "DSI"
+        },
+        "author": {
+            "id": 1,
+            "fistname": "Sacha",
+            "lastname": "Barkat",
+            "icon": {
+                "path": "default",
+                "format": "png"
+            }
+        },
+        "chapters": [{
+            "id": 1,
+            "position": 0,
+            "name": "Chapitre 1",
+            "description": "Le chapitre 1",
+            "icon": {
+                "path": "default",
+                "format": "png"
+            }
+        }, {
+            "id": 3,
+            "position": 1,
+            "name": "Chapitre 2",
+            "description": "Le chapitre 2",
+            "icon": {
+                "path": "default",
+                "format": "png"
+            }
+        }]
     }
 }
