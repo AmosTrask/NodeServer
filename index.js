@@ -61,7 +61,7 @@ app.put('/api/formation/1/edit', function (req, res){
   res.send(formation1);
 });
 
-app.post('/api/formation/1/addChapter', function (req, res){
+app.post('/api/formation/2/addChapter', function (req, res){
   res.send(chapter2);
 });
 
