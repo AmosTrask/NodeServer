@@ -5,7 +5,7 @@
         "position": 2,
         "name": "Chapitre 2",
         "description": "Le chapitre 2",
-        "content": "Contenu du chapitre 2",
+        "content": "<p><strong>Contenu du chapitre 2<img src=\"https://i.froala.com/download/2315f3b1dbbba1923c91db0b2914e98b6fdce650.png?1521711587\" style=\"width: 300px;\" class=\"fr-fic fr-dib\"></strong></p>",
         "draft": false,
         "icon": {
             "path": "default",
