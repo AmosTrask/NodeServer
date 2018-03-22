@@ -5,6 +5,7 @@
         "position": 2,
         "name": "Chapitre 2",
         "description": "Le chapitre 2",
+        "content": "Contenu du chapitre 2",
         "draft": false,
         "icon": {
             "path": "default",
